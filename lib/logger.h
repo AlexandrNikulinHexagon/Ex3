@@ -7,7 +7,7 @@
 #include <string>
 #include <sstream>
 
-#include "SafeQueue.h"
+#include "safequeue.h"
 
 class BaseLoggerHandler
 {
