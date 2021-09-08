@@ -6,6 +6,7 @@
 #include <list>
 #include <string>
 #include <sstream>
+#include <thread>
 
 #include "safequeue.h"
 
