@@ -4,8 +4,8 @@
 #include "logger.h"
 
 int main(int, char *[]) {
-    Logger::add_pool<ConsoleLoggerHandler>(1);
-    Logger::add_pool<FileLoggerHandler>(2);
+    Logger::get().add_pool<ConsoleLoggerHandler>(1);
+    Logger::get().add_pool<FileLoggerHandler>(2);
 
     std::size_t bulk = 5;
     auto h = async::connect(bulk);
